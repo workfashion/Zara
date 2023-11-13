@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ZARA</title>
+    <link rel="shortcut icon" href="img/logo.png" type="image/x-icon">
+    <meta http-equiv="X-UA_Compatible" content="IE=edge">
+    <link rel="stylesheet" href="Css/bootstrap.min.css">
+    <link rel="stylesheet" href="Css/all.min.css">
+    <link rel="stylesheet" href="Css/media-screen.css">
+    <link rel="stylesheet" href="Css/Style.css">
+    
+
+
+</head>
+<body >
+
+
+    
+  <nav class="navbar navbar-expand-lg">
+      <div class=" container ">
+      <img src="img/zara-brand-40033.png" style="width: 7%;" alt="">
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                  </div>
+            <div class="d-flex">
+
+          <li class="nav-item ">
+            <a class="nav-link  " aria-current="page" href="index.html">Home</a>
+          </li>
+          <li class="nav-item ">
+            <a class="nav-link" href="blog.html">Blog</a>
+          </li>
+          <li class="nav-item ">
+            <a class="nav-link" href="About.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="Regester.html">Log In </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" id="open_cart_btn"><i class="fa-solid fa-cart-shopping" style="color: #008178;"></i></a>
+          </li>
+        </div>
+      </div>
+    </div>
+  </nav>
+  
+
+<main class="Cart-container ">
+  <h1 class="heading">
+    <i class="fa-cart-shopping fa-solid"></i>  Shopping Cart
+  </h1>
+
+  <div class="item-flex">
+    <section class="checkout">
+      <h2 class="section-heading">Payment Details</h2>
+
+      <div class="payment-form">
+
+        <div class="payment-method">
+
+          <button class="method selected">
+            <i class="fa-credit-card fa-solid"></i>
+            
+            <span>Cash</span>
+
+            <i style="color: hsl(219, 77%, 60%)" class="checkmark fill fa-check-circle fa-solid" ></i>
+          </button>
+
+          
+          <button class="method " style="cursor: text;background-color: #0000000c;">
+            <i class="fa-money-check-dollar fa-solid"></i>
+            
+            <span>Credit Card</span>
+
+            <i class="checkmark   fa-check-circle fa-regular" ></i>
+          </button>
+        </div>
+
+        <form action="#">
+
+          <div class="user-name">
+            <label for="user-name" class="label-default">Full Name</label>
+            <input type="text" name="user-name" id="user-name" class="input-default">
+          </div>
+
+          <div class="email">
+            <label for="email" class="label-default">Email</label>
+            <input type="email" name="email" id="email" class="input-default">
+          </div>
+
+          <div class="user-number">
+            <label for="user-number" class="label-default">Phone Number</label>
+            <input type="number" name="user-number" placeholder="012345678910" id="user-number" class=" input-default">
+          </div>
+
+          <div class="input-flex">
+
+            <div class="address">
+              <label for="add" class="label-default">
+                Full Address
+              </label>
+
+              <div class="input-flex">
+                <input type="text" name="add" id="add" class="input-default">
+              </div>
+
+
+            </div>
+
+            <div class="Street">
+              <label for="Street" class="label-default">Street</label>
+              <input type="text" name="Street"   id="Street" class="input-default">
+            </div>
+
+          </div>
+
+
+        </form>
+
+      </div>
+
+      <button class="btn btn-primary " style="background-color: hsl(219, 77%, 60%);;">
+        <b class="m-0">Confirm </b>
+      </button>
+
+    </section>
+
+    <section class="cart-shop">
+
+      <div class="cart-item-box">
+        <h2 class="border-0 mb-3  heading">Order Summary</h2>
+
+
+      </div>
+
+      <div class="wrapper">
+        <div class="discount-token">
+          <label for="token" class="label-default">
+            Gift Card/Discount Code
+          </label>
+
+          <div class="wrapper-flex">
+            <input type="text" name="token" id="token" class="input-default">
+
+            <button class="btn btn-outline ">Apply</button>
+          </div>
+        </div>
+
+
+        <div class="amount">
+
+          <div class="subtotal">
+            <span>Subtotal</span><span >$<span id="subtotal">0.00 </span></span>
+          </div>
+
+
+          <div class="Tax d-none">
+            <span>Tax</span><span >$ </span>
+          </div>
+
+          <div class="Shipping">
+            <span>Shipping</span><span id="Shipping">Free</span>
+          </div>
+
+          <hr>
+
+          <div class="Total fw-bold">
+            <span fw-bold>Total</span><span class="fw-bold " >$<span id="Total">0.00 </span></span>
+          </div>
+
+        </div>
+      </div>
+
+    </section>
+  </div>
+</main>
+
+  <div class="newsletter p-5  my-3">
+    <div class="  newsletter-container">
+    <div class="newstext pt-2">
+      <h4>Sign Up For Newsletters</h4>
+      <p>Get E-mail Updates About Our Latest Shop And <span>Special Offers.</span></p>
+    </div>
+    <div class="form">
+      <input type="email" placeholder="a@florin-pop.com"/>
+      <button type="submit">Sign Up</button>
+    </div>
+  </div>
+  </div>
+
+
+
+  <footer class="p-3">
+    <div class="px-5 container footer-container  mt-4">
+      <div class="row">
+        <div class="col-md-4 ms-md-5">
+          <img class="logo" src="img/zara-brand-40033.png" alt="">
+          <p> <strong>Address:</strong> 1650 Lombard Street, San Francisco, CA 94123</p>
+          <p><strong>Phone:</strong> +1 (415) 876-3250 / +1 (415) 876-3251</p>
+          <p><strong>Hours:</strong> 10:00 - 18:00, Mon - Sat </p>
+        </div>
+    
+        <div class="col-md-4 ">
+          <h4>About</h4>
+            <a class="d-block" href="#">About Us </a>  
+            <a class="d-block" href="#">Delivery Information </a> 
+            <a class="d-block" href="#">Privacy Policy</a> 
+            <a class="d-block" href="#">Terms & Conditions</a> 
+            <a class="d-block" href="#">Contact Us</a> 
+        </div>
+    
+        <div class="col-md-3 ">
+          <h4>My Account</h4>
+            <a class="d-block" href="#">Sign In  </a>
+            <a class="d-block" href="#">View Cart </a>
+            <a class="d-block" href="#">My Wishlist </a>
+            <a class="d-block" href="#">Track My Order</a>
+            <a class="d-block" href="#">Help</a>
+        </div>
+    
+    
+    
+      </div>
+    </div>
+      <div class="copyright d-flex justify-content-center mt-3">
+        <p>© 2023, Zara2 etc - Fashion Ecommerce  </p>
+      </div>
+      </footer>
+
+      
+      
+
+
+    <script src="Js/bootstrap.bundle.min.js"></script>
+    <script src="Js/all.min.js"></script>
+    <script src="Js/code.jquery.com_jquery-3.7.0.min.js"></script>
+    <script src="Js/sidecart.js"></script>
+    <script src="Js/main.js"></script>
+
+
+</body>
+</html>
+
+

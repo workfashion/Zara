@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ZARA</title>
+    <link rel="shortcut icon" href="img/logo.png" type="image/x-icon">
+    <meta http-equiv="X-UA_Compatible" content="IE=edge">
+    <link rel="stylesheet" href="Css/bootstrap.min.css">
+    <link rel="stylesheet" href="Css/all.min.css">
+    <link rel="stylesheet" href="Css/media-screen.css">
+    <link rel="stylesheet" href="Css/Style.css">
+    
+
+
+</head>
+<body >
+
+
+  <nav class="navbar navbar-expand-lg ">
+    <div class="  container-fluid container-md">
+      <img src="img/zara-brand-40033.png" style="width: 7%;" alt="">
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">  
+                </div>
+                <div class="d-flex">
+              <li class="nav-item ">
+                <a class="nav-link   active-nav fw-bold" aria-current="page" href="index.html">Home</a>
+              </li>
+              <li class="nav-item ">
+                <a class="nav-link " href="blog.html">Blog</a>
+              </li>
+              <li class="nav-item ">
+                <a class="nav-link " href="About.html">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="Regester.html">Log In </a>
+              </li>
+              <li class="nav-item" >
+                <a class="nav-link" id="open_cart_btn" ><i class="fa-solid fa-cart-shopping"></i></a>
+              </li>
+            </ul>
+          </div>
+      </div>
+    </div>
+</nav>        
+  
+
+    <div class="main-home " >
+   
+        <div class=" home-content" >
+            <h4>Trade-in-offer</h4>
+            <h2 class="text-capitalize">Super value deals</h2>
+            <h1>On All Products</h1>
+            <p class="text-capitalize">Save more with coupons & up to 70% off! </p>
+            <a href="#Sales" id="shop-btn"><button class="main-btn">Shop Now</button></a>
+        </div>
+
+    <div class="Nav z-3 position-fixed top-0  ">
+        <ul class="d-flex m-3 nav-padding ">                   
+                <div class="backdrop"></div>
+
+                    <section>                    
+                        <div class="sidecart" id="sidecart">
+                        <div class="cart_content">
+
+                            <div class="cart_header">
+                            
+
+                                <div class="header_title">
+                                    <h4>Your Cart</h4>
+                                    <span id="items_num">0</span>
+                                </div>
+                                <span id="close_btn" class="close_btn">&times;</span>
+                            </div>
+
+                            <div class="cart_items">
+
+                            </div>
+
+                            <div class="cart_actions">
+                                <div class="subtotal">
+                                    <p>Free Shipping on items above <span class="text-danger">$500</span> </p>
+                                </div>
+                                <form action="Cart.html" class="w-100">
+                                <button  class="w-100"  id="checkOut">Check Out</button>
+                                </form>
+                              </div>
+
+                        </div>
+                        </div>
+                    </section>                    
+                </span>
+            </div>
+        </ul>
+    </div>   
+</div>
+
+<div class="feature d-flex justify-content-between align-items-center flex-wrap " >
+  <div class="feature-box ">
+    <img src="img/f1.png" alt="">
+    <h6>Free Shipping</h6>
+  </div>
+  <div class="feature-box">
+    <img src="img/f2.png" alt="">
+    <h6>Online Order</h6>
+  </div>
+  <div class="feature-box">
+    <img src="img/f3.png" alt="">
+    <h6>Save Money</h6>
+  </div>
+  <div class="feature-box">
+    <img src="img/f4.png" alt="">
+    <h6>Promotions</h6>
+  </div>
+  <div class="feature-box">
+    <img src="img/f5.png" alt="">
+    <h6>Happy Sell</h6>
+  </div>
+  <div class="feature-box">
+    <img src="img/f6.png" alt="">
+    <h6>F24/7 Support</h6>
+  </div>
+</div>
+
+
+
+<div class="all-products  container" id="Sales">
+
+    <div class=" head d-flex justify-content-center align-items-center text-capitalize  mb-2 mb-md-3 mt-3 ">
+        <h3> Featured <span> Products</span> </h3>
+    </div>
+<div class="buttons">
+<div id="btns" class="d-flex justify-content-center  align-content-center pb-4 ">
+    <li class="btn TShirts-btn" onclick="TShirtsFilter()">T-shirt</li>
+    <li class="btn Shoes-btn " onclick="ShoesFilter()">Shoes</li>
+    <li class="btn Pants-btn" onclick="PantsFilter()">Pants</li>
+    <li class="btn newArrival-btn" onclick="newArrivalFilter()">NewArrival</li>
+</div>
+</div>
+
+        <div class="featured-info items ">
+
+        </div>
+
+
+</div>
+
+
+
+<div  class="carousel slide  container pt-5 " >
+
+    <div class=" head d-flex justify-content-center align-items-center text-capitalize   mb-3 ">
+        <h3>Coming <span style="color: red;"> Soon</span> </h3>
+    </div> 
+    
+    <div class="carousel-inner d-flex  overflow-x-auto">
+
+        <div class="d-flex carousel-rows"></div>
+
+    </div>
+  </div>
+
+
+<div class="banner">
+  <h4 >Repair Services </h4>
+  <h2>Up to <span>70%</span>  - All t-shirts & Accessories</h2>
+  <a href="blog.html"><button>Explore More</button><a/>
+</div>
+
+
+<div class="newsletter p-5  ">
+  <div class="  newsletter-container">
+  <div class="newstext pt-2">
+    <h4>Sign Up For Newsletters</h4>
+    <p>Get E-mail Updates About Our Latest Shop And <span>Special Offers.</span></p>
+  </div>
+  <div class="form">
+    <input type="email" placeholder="a@florin-pop.com"/>
+    <button type="submit">Sign Up</button>
+  </div>
+</div>
+</div>
+
+
+
+<footer class="p-3">
+  <div class="px-5 container footer-container  mt-4">
+    <div class="row">
+
+      <div class="col-md-4 ">
+        <h4>About</h4>
+          <a class="d-block" href="#">About Us </a>  
+          <a class="d-block" href="#">Delivery Information </a> 
+          <a class="d-block" href="#">Privacy Policy</a> 
+          <a class="d-block" href="#">Terms & Conditions</a> 
+          <a class="d-block" href="#">Contact Us</a> 
+      </div>
+
+
+      <div class="col-md-4 ms-md-5">
+        <img class="logo " style="transform: translateX(55%);" src="img/zara-brand-40033.png" alt="">
+        <p> <strong>Address:</strong> 1650 Lombard Street, San Francisco, CA 94123</p>
+        <p><strong>Phone:</strong> +1 (415) 876-3250 / +1 (415) 876-3251</p>
+        <p><strong>Hours:</strong> 10:00 - 18:00, Mon - Sat </p>
+      </div>
+
+      <div class="col-md-1"></div>
+      <div class="col-md-2 ">
+        <h4>My Account</h4>
+          <a class="d-block" href="#">Sign In  </a>
+          <a class="d-block" href="#">View Cart </a>
+          <a class="d-block" href="#">My Wishlist </a>
+          <a class="d-block" href="#">Track My Order</a>
+          <a class="d-block" href="#">Help</a>
+      </div>
+  
+  
+  
+    </div>
+  </div>
+    <div class="copyright d-flex justify-content-center mt-5 ms-2">
+      <p>© 2023, Zara2 etc - Fashion Ecommerce  </p>
+    </div>
+    </footer>
+
+
+    <script src="Js/bootstrap.bundle.min.js"></script>
+    <script src="Js/all.min.js"></script>
+    <script src="Js/code.jquery.com_jquery-3.7.0.min.js"></script>
+    <script src="Js/main.js"></script>
+    
+</body>
+</html>
